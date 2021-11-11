@@ -22,3 +22,24 @@ To enter in a named container use:
 ```bash
 docker-compose exec php /bin/bash
 ```
+
+
+## Contributing
+
+For contributions, issues and feature requests please check [issues page](https://github.com/dsabre/countdown/issues).
+
+
+## Authors
+
+- [Daniele Sabre](https://github.com/dsabre)
+
+
+## Support me
+<a href="https://www.buymeacoffee.com/daniele.sabre" target="_blank">
+  <img src="https://raw.githubusercontent.com/dsabre/dsabre/main/images/bmc.png" alt="Buy Me a Coffee" title="Buy Me a Coffee" height="50" />
+</a>
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
