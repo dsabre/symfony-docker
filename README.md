@@ -3,6 +3,11 @@
 A docker compose to manage a Symfony and other PHP applications.
 
 
+## Installation
+
+Simply clone this repository, change the names of container in docker-compose.yml file and thats it.
+
+
 ## Useful commands
 
 Generate containers using docker compose:
