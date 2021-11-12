@@ -5,7 +5,7 @@ A docker compose to manage a Symfony and other PHP applications.
 
 ## Installation
 
-Simply clone this repository, change the names of container in docker-compose.yml file and thats it.
+Just clone this repository, and if you want you can change the container names in the docker-compose.yml file and that's it.
 
 
 ## Useful commands
@@ -25,7 +25,7 @@ docker-compose down --rmi all
 To enter in a named container use:
 
 ```bash
-docker-compose exec php /bin/bash
+docker-compose exec container-name /bin/bash
 ```
 
 
