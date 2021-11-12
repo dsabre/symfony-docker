@@ -1,8 +1,7 @@
-FROM php:7.4-fpm
+FROM php:7.4-fpm-alpine
 
 # prepare os
-RUN apt-get update
-RUN apt-get install -y zlib1g-dev g++ git libicu-dev zip libzip-dev zip libpng-dev libonig-dev nodejs npm
+RUN apk add --update --no-cache zlib1g-dev g++ git libicu-dev zip libzip-dev zip libpng-dev libonig-dev nodejs npm
 RUN npm install --global yarn
 RUN docker-php-ext-install intl opcache pdo pdo_mysql \
     && pecl install apcu \
